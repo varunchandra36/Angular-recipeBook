@@ -1,0 +1,36 @@
+<nav class="nav navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Recipe Book</a>
+    </div>
+    <div class="nav nav-tabs">
+
+        <li routerLinkActive="active"><a routerLink="/recipes" >Recipes</a></li>
+        <li routerLinkActive="active"><a routerLink="/shoppinglist" >Shopping List</a></li>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" appDropdown>
+          <a href="#" class="dropdown-toggle">Manage<span class="caret"></span></a>
+          <ul class="dropdown-menu" >
+            <li><a href="#">Save Data</a> </li>
+            <li><a href="#">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- <ul class="nav nav-tabs">
+  ...
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </li>
+  ...
+</ul>-->

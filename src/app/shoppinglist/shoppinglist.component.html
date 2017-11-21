@@ -1,0 +1,7 @@
+<div class="row">
+  <div><app-shoppingedit></app-shoppingedit></div>
+  <hr>
+  <div class="list-group-item" *ngFor="let Ingridient of Ingridients">
+    <div class="list-group-item-heading">{{ Ingridient.name }}({{Ingridient.count }})</div>
+  </div>
+</div>
